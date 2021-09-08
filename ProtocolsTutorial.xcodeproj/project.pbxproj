@@ -13,7 +13,26 @@
 		8E2F4B4826E46F5300E36A47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F4B4626E46F5300E36A47 /* Main.storyboard */; };
 		8E2F4B4A26E46F5600E36A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F4B4926E46F5600E36A47 /* Assets.xcassets */; };
 		8E2F4B4D26E46F5600E36A47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F4B4B26E46F5600E36A47 /* LaunchScreen.storyboard */; };
+		8E2F4B5726E4717900E36A47 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F4B5526E4717900E36A47 /* VC2.swift */; };
+		8E2F4B5826E4717900E36A47 /* VC2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F4B5626E4717900E36A47 /* VC2.xib */; };
+		8E2F4B7A26E4791700E36A47 /* PostsMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F4B6F26E4791700E36A47 /* PostsMock.json */; };
+		8E2F4B7B26E4791700E36A47 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F4B7126E4791700E36A47 /* PostsViewModel.swift */; };
+		8E2F4B7C26E4791700E36A47 /* PostsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F4B7326E4791700E36A47 /* PostsProvider.swift */; };
+		8E2F4B7E26E4791700E36A47 /* PostsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F4B7626E4791700E36A47 /* PostsListViewController.swift */; };
+		8E2F4B7F26E4791700E36A47 /* PostsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F4B7726E4791700E36A47 /* PostsListViewController.xib */; };
+		8E2F4B8026E4791700E36A47 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F4B7926E4791700E36A47 /* PostModel.swift */; };
+		8E2F4B8826E47FCF00E36A47 /* ProtocolsTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F4B8726E47FCF00E36A47 /* ProtocolsTutorialTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E2F4B8A26E47FCF00E36A47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E2F4B3526E46F5300E36A47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E2F4B3C26E46F5300E36A47;
+			remoteInfo = ProtocolsTutorial;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8E2F4B3D26E46F5300E36A47 /* ProtocolsTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolsTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +43,28 @@
 		8E2F4B4926E46F5600E36A47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E2F4B4C26E46F5600E36A47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E2F4B4E26E46F5600E36A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2F4B5526E4717900E36A47 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		8E2F4B5626E4717900E36A47 /* VC2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VC2.xib; sourceTree = "<group>"; };
+		8E2F4B6F26E4791700E36A47 /* PostsMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PostsMock.json; sourceTree = "<group>"; };
+		8E2F4B7126E4791700E36A47 /* PostsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
+		8E2F4B7326E4791700E36A47 /* PostsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsProvider.swift; sourceTree = "<group>"; };
+		8E2F4B7626E4791700E36A47 /* PostsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsListViewController.swift; sourceTree = "<group>"; };
+		8E2F4B7726E4791700E36A47 /* PostsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostsListViewController.xib; sourceTree = "<group>"; };
+		8E2F4B7926E4791700E36A47 /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		8E2F4B8526E47FCF00E36A47 /* ProtocolsTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolsTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2F4B8726E47FCF00E36A47 /* ProtocolsTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsTutorialTests.swift; sourceTree = "<group>"; };
+		8E2F4B8926E47FCF00E36A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8E2F4B3A26E46F5300E36A47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2F4B8226E47FCF00E36A47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				8E2F4B3F26E46F5300E36A47 /* ProtocolsTutorial */,
+				8E2F4B8626E47FCF00E36A47 /* ProtocolsTutorialTests */,
 				8E2F4B3E26E46F5300E36A47 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				8E2F4B3D26E46F5300E36A47 /* ProtocolsTutorial.app */,
+				8E2F4B8526E47FCF00E36A47 /* ProtocolsTutorialTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +95,8 @@
 		8E2F4B3F26E46F5300E36A47 /* ProtocolsTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				8E2F4B6D26E4791700E36A47 /* Posts */,
+				8E2F4B5426E4714200E36A47 /* SecondScreen */,
 				8E2F4B4026E46F5300E36A47 /* AppDelegate.swift */,
 				8E2F4B4226E46F5300E36A47 /* SceneDelegate.swift */,
 				8E2F4B4426E46F5300E36A47 /* ViewController.swift */,
@@ -65,6 +106,77 @@
 				8E2F4B4E26E46F5600E36A47 /* Info.plist */,
 			);
 			path = ProtocolsTutorial;
+			sourceTree = "<group>";
+		};
+		8E2F4B5426E4714200E36A47 /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8E2F4B5526E4717900E36A47 /* VC2.swift */,
+				8E2F4B5626E4717900E36A47 /* VC2.xib */,
+			);
+			path = SecondScreen;
+			sourceTree = "<group>";
+		};
+		8E2F4B6D26E4791700E36A47 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				8E2F4B6E26E4791700E36A47 /* Mocks */,
+				8E2F4B7026E4791700E36A47 /* ViewModel */,
+				8E2F4B7226E4791700E36A47 /* Provider */,
+				8E2F4B7526E4791700E36A47 /* ViewControllers */,
+				8E2F4B7826E4791700E36A47 /* Model */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		8E2F4B6E26E4791700E36A47 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				8E2F4B6F26E4791700E36A47 /* PostsMock.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		8E2F4B7026E4791700E36A47 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8E2F4B7126E4791700E36A47 /* PostsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8E2F4B7226E4791700E36A47 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				8E2F4B7326E4791700E36A47 /* PostsProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		8E2F4B7526E4791700E36A47 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E2F4B7626E4791700E36A47 /* PostsListViewController.swift */,
+				8E2F4B7726E4791700E36A47 /* PostsListViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8E2F4B7826E4791700E36A47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E2F4B7926E4791700E36A47 /* PostModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E2F4B8626E47FCF00E36A47 /* ProtocolsTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E2F4B8726E47FCF00E36A47 /* ProtocolsTutorialTests.swift */,
+				8E2F4B8926E47FCF00E36A47 /* Info.plist */,
+			);
+			path = ProtocolsTutorialTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +199,24 @@
 			productReference = 8E2F4B3D26E46F5300E36A47 /* ProtocolsTutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8E2F4B8426E47FCF00E36A47 /* ProtocolsTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E2F4B8C26E47FCF00E36A47 /* Build configuration list for PBXNativeTarget "ProtocolsTutorialTests" */;
+			buildPhases = (
+				8E2F4B8126E47FCF00E36A47 /* Sources */,
+				8E2F4B8226E47FCF00E36A47 /* Frameworks */,
+				8E2F4B8326E47FCF00E36A47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E2F4B8B26E47FCF00E36A47 /* PBXTargetDependency */,
+			);
+			name = ProtocolsTutorialTests;
+			productName = ProtocolsTutorialTests;
+			productReference = 8E2F4B8526E47FCF00E36A47 /* ProtocolsTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +228,10 @@
 				TargetAttributes = {
 					8E2F4B3C26E46F5300E36A47 = {
 						CreatedOnToolsVersion = 12.5.1;
+					};
+					8E2F4B8426E47FCF00E36A47 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 8E2F4B3C26E46F5300E36A47;
 					};
 				};
 			};
@@ -115,6 +249,7 @@
 			projectRoot = "";
 			targets = (
 				8E2F4B3C26E46F5300E36A47 /* ProtocolsTutorial */,
+				8E2F4B8426E47FCF00E36A47 /* ProtocolsTutorialTests */,
 			);
 		};
 /* End PBXProject section */
@@ -124,9 +259,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E2F4B7F26E4791700E36A47 /* PostsListViewController.xib in Resources */,
 				8E2F4B4D26E46F5600E36A47 /* LaunchScreen.storyboard in Resources */,
 				8E2F4B4A26E46F5600E36A47 /* Assets.xcassets in Resources */,
 				8E2F4B4826E46F5300E36A47 /* Main.storyboard in Resources */,
+				8E2F4B7A26E4791700E36A47 /* PostsMock.json in Resources */,
+				8E2F4B5826E4717900E36A47 /* VC2.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2F4B8326E47FCF00E36A47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,13 +282,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E2F4B8026E4791700E36A47 /* PostModel.swift in Sources */,
+				8E2F4B7C26E4791700E36A47 /* PostsProvider.swift in Sources */,
 				8E2F4B4526E46F5300E36A47 /* ViewController.swift in Sources */,
+				8E2F4B7B26E4791700E36A47 /* PostsViewModel.swift in Sources */,
+				8E2F4B7E26E4791700E36A47 /* PostsListViewController.swift in Sources */,
 				8E2F4B4126E46F5300E36A47 /* AppDelegate.swift in Sources */,
 				8E2F4B4326E46F5300E36A47 /* SceneDelegate.swift in Sources */,
+				8E2F4B5726E4717900E36A47 /* VC2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2F4B8126E47FCF00E36A47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2F4B8826E47FCF00E36A47 /* ProtocolsTutorialTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E2F4B8B26E47FCF00E36A47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E2F4B3C26E46F5300E36A47 /* ProtocolsTutorial */;
+			targetProxy = 8E2F4B8A26E47FCF00E36A47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8E2F4B4626E46F5300E36A47 /* Main.storyboard */ = {
@@ -319,6 +485,46 @@
 			};
 			name = Release;
 		};
+		8E2F4B8D26E47FCF00E36A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6247PH2JQ;
+				INFOPLIST_FILE = ProtocolsTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.victorroldan.ProtocolsTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtocolsTutorial.app/ProtocolsTutorial";
+			};
+			name = Debug;
+		};
+		8E2F4B8E26E47FCF00E36A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6247PH2JQ;
+				INFOPLIST_FILE = ProtocolsTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.victorroldan.ProtocolsTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtocolsTutorial.app/ProtocolsTutorial";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +542,15 @@
 			buildConfigurations = (
 				8E2F4B5226E46F5600E36A47 /* Debug */,
 				8E2F4B5326E46F5600E36A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E2F4B8C26E47FCF00E36A47 /* Build configuration list for PBXNativeTarget "ProtocolsTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2F4B8D26E47FCF00E36A47 /* Debug */,
+				8E2F4B8E26E47FCF00E36A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
